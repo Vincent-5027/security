@@ -1,0 +1,18 @@
+Basicauthenticationfilter
+解析请求头信息
+
+工具类ObjectMapper 有几种,fastjson中readvalue可以将字符串读成对象
+response.getWriter().write(objectMapper.writeValueAsString(authentication);
+
+ClientDetailsService AuthorizationServerTokenServices
+spring容器已经注入的bean
+
+TokenStrategy决定了token是在头信息还是在url中
+
+String有format静态方法,格式化%s
+
+RestTemplate的getForObject(url, class)
+
+构造方法中写逻辑
+
+StringUtils.subStringBetween()
